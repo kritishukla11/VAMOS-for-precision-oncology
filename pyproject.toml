@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vamos-precision"
+version = "0.1.0"
+description = "VAMOS Precision Oncology: mapping, clustering, GSEA, ML and downstream analyses"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name="Your Name", email="your.email@example.com"}]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "numpy",
+  "pandas",
+  "scikit-learn",
+  "matplotlib",
+  "seaborn",
+  "scipy",
+  "anndata",
+  "scanpy",
+  "pyyaml"
+]
+
+[project.scripts]
+vamos-precision = "vamos_precision.cli:main"

@@ -1,0 +1,10 @@
+def test_imports():
+    import vamos_precision
+    import vamos_precision.mapping
+    import vamos_precision.clustering
+    import vamos_precision.gsea
+    import vamos_precision.ml
+    import vamos_precision.logodds
+    import vamos_precision.prioritization
+    import vamos_precision.drug_id
+    import vamos_precision.permutation
